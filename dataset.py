@@ -50,6 +50,17 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    # Added posts
+    "Lowkey stressed but no cap kinda proud of myself",        # slang, mixed
+    "I absolutely love being stuck in traffic for two hours",  # sarcasm
+    "just vibing 😊",                                         # slang + emoji
+    "this homework is killing me 💀",                         # slang + emoji
+    "highkey obsessed with this new song",                    # slang
+    "I'm fine. Everything is fine. 🙂",                       # sarcasm/ambiguous
+    "feeling 🥲 rn but at least it's Friday",                 # emoji, mixed
+    "got the job!!! 😂😂 no way this is real",                # emoji, positive
+    "another Monday. cool. great. love that for me.",         # sarcasm
+    "not sad just tired and empty lol",                       # ambiguous/negative
 ]
 
 # Human labels for each post above.
@@ -65,6 +76,17 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    # Added labels
+    "mixed",     # lowkey stressed but proud — competing feelings
+    "negative",  # sarcasm — clearly hates being in traffic
+    "positive",  # just vibing with a smile emoji
+    "negative",  # "killing me" even as hyperbole reads as overwhelmed
+    "positive",  # highkey obsessed = strong enthusiasm
+    "mixed",     # forced smile emoji hints at masking feelings
+    "mixed",     # sad emoji but a silver lining (Friday)
+    "positive",  # genuine excitement about good news
+    "negative",  # sarcastic take on Mondays
+    "negative",  # explicitly denies sadness but describes it anyway
 ]
 
 # TODO: Add 5-10 more posts and labels.
